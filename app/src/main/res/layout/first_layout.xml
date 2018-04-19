@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="21dp"
+        android:layout_x="18dp"
+        android:layout_y="15dp"
+        android:ems="10"
+        android:hint="Customer Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_x="258dp"
+        android:layout_y="15dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Spinner
+        android:id="@+id/plan"
+        android:layout_width="197dp"
+        android:layout_height="43dp"
+        android:layout_x="20dp"
+        android:layout_y="74dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <EditText
+        android:id="@+id/sumass"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="202dp"
+        android:ems="10"
+        android:hint="Sum Assured"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <EditText
+        android:id="@+id/term"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_x="221dp"
+        android:layout_y="203dp"
+        android:ems="10"
+        android:hint="Term"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <EditText
+        android:id="@+id/policyNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="280dp"
+        android:ems="10"
+        android:hint="Policy Number"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="411dp"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <Spinner
+        android:id="@+id/plansub"
+        android:layout_width="354dp"
+        android:layout_height="46dp"
+        android:layout_x="20dp"
+        android:layout_y="137dp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <EditText
+        android:id="@+id/commence"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="334dp"
+        android:ems="10"
+        android:hint="Commencement Date(DD/MM/YYYY))"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="280dp" />
+</AbsoluteLayout>

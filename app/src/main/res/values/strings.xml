@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">PolicyHandler</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="main_list">
+        <item>Health Plans</item>
+        <item>Endowment Plans</item>
+        <item>Term Plans</item>
+        <item>Pension Plans</item>
+        <item>Life Plans</item>
+    </string-array>
+    <string-array name="health_plans">
+        <item>1 . LIC Jeevan Arogya</item>
+        <item>2 . LIC Cancer Cover Plan</item>
+    </string-array>
+    <string-array name="endowment_plans">
+        <item>1 . LIC New Jeevan Anand</item>
+        <item>2 . LIC New Bima Bachat</item>
+        <item>3 . LIC Single Premium Endowment Plan</item>
+        <item>4 . LIC New Money Back Plan</item>
+        <item>5 . LIC Jeevan Rakshak</item>
+        <item>6 . LIC New Children Money Back Plan</item>
+    </string-array>
+    <string-array name="term_plans">
+        <item>1 . LIC Anmol Jeevan 2</item>
+        <item>2 . LIC Amulya Jeevan 2</item>
+        <item>3 . LIC Pradhan Mantri Vaya Vandana Yojna</item>
+    </string-array>
+    <string-array name="pension_plans">
+        <item>1 . LIC Jeevan Akshay VI</item>
+        <item>2 . LIC New Jeevan Nidhi</item>
+        <item>3 . LIC eTerm</item>
+    </string-array>
+    <string-array name="life_Plan">
+        <item>1 . LIC Jeevan Umang</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+</resources>
